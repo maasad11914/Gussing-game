@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0.1rem 0.1rem 0.1rem  #222, -0.1rem 0 0.1rem #222;
+    transition: all 0.3s;
+}
+.card:hover{
+    box-shadow: 0.2rem 0.2rem 0.2rem  #222, -0.2rem 0 0.2rem #222;
+
+}
+.card *{
+    margin: 5px;
+    margin-bottom: 10px;
+    color: black;
+}
+input{
+    color: black;
+    width: 50%;
+    height: 20px;
+    border: none;
+    border: 0.1rem solid;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+.btn{
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8px;
+}
+button{
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 3px;
+    width: 45px;
+    transition: all 0.5s;
+
+}
+button:hover{
+    background-color: blanchedalmond;
+}
+p{
+    text-align: center;
+}
+.bold-font{
+    font-size: 1.5rem;
+    color: crimson;
+}
+@media screen and (max-width: 938px) {
+    .btn{
+        justify-content: center;
+    }
+}
